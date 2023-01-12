@@ -53,6 +53,7 @@ width: auto;
     display: flex;
     justify-content: center;
     width: 400px;
+    font-weight: bold;
 }
 
 .photo-and-label{
