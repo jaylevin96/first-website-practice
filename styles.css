@@ -1,0 +1,87 @@
+html{
+    background-color: antiquewhite;
+}
+h1{
+font-family: "Times New Roman", 'Times New Roman', Times, serif;
+color:darkslategray;
+
+}
+h2{
+font-family: Arial, Helvetica, sans-serif;
+color: #3585B1;
+}
+
+.ribbon{
+width: 400px;
+margin: auto;
+display:flex;
+justify-content: space-around;
+font-size: larger;
+border-top: 2pt solid black;
+border-bottom: 2pt solid black;
+}
+#headshot{
+height: 400px;
+width: auto;
+}
+.intro-top{
+    height:600px;
+    text-align: center;
+}
+#me{
+
+    font-size:60pt
+}
+.body{
+    width:900px;
+    margin: auto;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+}
+.photos{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+
+}
+.photo-label{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.photo-and-label{
+    padding-top: 20px;
+}
+
+
+fieldset{
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    margin-top: 30px;
+
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-label{
+    padding-right: 20px;
+}
